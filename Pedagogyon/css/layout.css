@@ -1,0 +1,353 @@
+@charset:"utf-8";
+
+/* formatacoes gerais */
+body{
+	font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+/* formatacoes da section top */
+section#top{
+	background-color: #01A594;
+}
+
+
+section#top nav{
+	background-color: #F3FAFD; /* cor navbar */
+
+}
+
+section#top nav ul li a{
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #012321;
+}
+
+.cadastro{
+	margin-top: 3em;
+	
+}
+.menuzito{
+	color: #48D1CC;
+}
+
+.logo{
+	width: 80%; height: 80%; /* tamanho logo */
+}
+
+.fotoum{
+	width: 110%; height: 110%; /* tamanho fotoum */
+	margin-top: 2em;
+}
+
+.fotodois{
+	width: 90%; height: 90% /* tamanho fotodois */
+}
+
+
+
+
+p{
+	font-size: 14px
+
+}
+
+/* formatacao da div quemsomos */
+
+section#QuemSomos{
+	background-color: #ffff;
+	color: #01A594;
+
+}
+div#QuemSomos h4{
+	font-weight: 700px;
+	text-transform: uppercase;
+	color: #01A594;
+	text-shadow: 0px 2px #01402f;
+
+}
+
+div#QuemSomos p{
+	font-weight: 300px;
+}
+
+
+
+/* formatacao  da section InfoUm*/
+
+div#InfoUm{
+	background-color: #01A594;
+	color: #ffff;
+	margin-top: 3em;
+
+}
+
+div#InfoUm header{
+	margin-bottom: 1em;
+
+
+}
+
+div#InfoUm h4{
+     font-weight: 700px;
+     text-transform: uppercase;
+     text-shadow: 0px 2px #01402f;
+     padding-left: 1em;
+
+
+}	
+
+div#InfoUm p{
+	font-weight: 300px;
+	margin-bottom: 3em;
+	padding-left: 3em;
+}
+
+
+
+/*formatacao da div faleconosco */
+
+div#FaleConosco{
+	background-color: #01A594;
+	padding-bottom: 1em;
+}
+
+div#FaleConosco .RedesSociais ul li a{
+	color: #ffff;
+	text-transform: uppercase;
+    
+}
+
+
+div#FaleConosco h4{
+	font-weight: 700px;
+	text-transform: uppercase;
+	color: #ffff;
+	padding-top: 1em;
+	text-shadow: 0px 2px #01402f;
+}
+
+div#FaleConosco p{
+	color: #ffff;
+}
+
+.page-footer{
+	background-color: #f7874e;
+	padding-top: 1em;
+
+}
+
+
+/* formatações pagina login */
+
+.login .container{
+	padding-left: 16em;
+}
+
+.container a{
+	color: #ffff;
+	
+}
+
+.login .container a .esqueceuasenha{
+	color: #ffff;
+}
+
+
+
+.login{
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+
+.login label{
+	color: #ffff;
+}
+
+.login input{
+	color: #ffff;
+}
+
+.login a b{
+	padding-left: 9em;
+}
+
+.login a img{
+	padding-left: 1em;
+}
+
+/* formatações pagina cadastro */
+
+.cadastro label{
+	color: #ffff;
+}
+
+.cadastro .container{
+	padding-left: 3em;
+	padding: 1em;
+}
+
+
+
+/* formatação pagina instituições */
+
+.instituicoes .container .row{
+	float: center;
+	padding: 1em;
+	padding-left: 13em;
+	padding-top: 2em;
+}
+
+.instituicoes .container .inst1{
+	width: 90%; height: 90%;
+}
+
+.instituicoes .container .inst2{
+	width: 90%; height: 90%;
+}
+
+.instituicoes .container .inst3{
+	width: 90%; height: 90%;
+}
+
+
+/* formatação pagina Nosso Sistema */
+
+
+div#nossosistema3{
+	background-color:  #01A594;
+}
+
+
+div#nossosistema2{
+	background-color:  #f7874e;
+}
+
+
+div#nossosistema1{
+	color: #ffff;
+	margin-top: 1em;
+}
+
+div#nossosistema1 h4{
+     font-weight: 700px;
+     text-transform: uppercase;
+     text-shadow: 0px 2px #01402f;
+     padding-left: 1em;
+     margin-top: 2em;
+
+
+}	
+
+div#nossosistema1 p{
+	font-weight: 300px;
+	margin-bottom: 3em;
+	padding-left: 3em;
+	margin-top: 2em;
+}
+
+div#nossosistema2{
+	color: #ffff;
+	margin-top: 2em;
+}
+
+div#nossosistema2 h4{
+     font-weight: 700px;
+     text-transform: uppercase;
+     text-shadow: 0px 2px #01402f;
+     padding-left: 1em;
+     margin-top: 2em;
+
+}
+
+
+div#nossosistema2 p{
+	font-weight: 300px;
+	margin-bottom: 3em;
+	padding-left: 3em;
+	margin-top: 2em;
+}
+
+
+div#nossosistema3{
+	color: #ffff;
+		
+}
+
+div#nossosistema3 h4{
+     font-weight: 700px;
+     text-transform: uppercase;
+     text-shadow: 0px 2px #01402f;
+     padding-left: 1em;
+     margin-top: 2em;
+
+
+}	
+
+div#nossosistema3 p{
+	font-weight: 300px;
+	margin-bottom: 3em;
+	padding-left: 3em;
+	margin-top: 2em;
+}
+
+
+/* formatação resultado buscas */
+
+div#resultado{
+	background-color: #ffff;
+	padding-bottom: 1em;
+}
+
+div#resultado h5{
+	color: #01A594;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+
+div#resultado p{
+	color: #01A594;
+	padding-left: 2em;
+}
+
+
+div#idade h5{
+	font-size: 20px;
+}
+
+div#areaatuacao h5{
+	font-size: 20px;
+}
+
+div#formacao h5{
+	font-size: 20px;
+}
+
+div#atuaem h5{
+	font-size: 20px;
+}
+
+div#idade{
+	color: #ffff;
+	padding-top: 1em;
+}
+
+div#areaatuacao{
+	color: #ffff;
+}
+
+div#formacao{
+	color: #ffff;
+}
+
+div#atuaem{
+	color: #ffff;
+}
+
+div#botaum{
+    padding-bottom: 1em;
+    color: #ffff;
+}

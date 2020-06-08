@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Cadastro</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Nunito:wght@300;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+</head>
+<body>
+	<section id="top">
+	<header>
+		<div class="navbar-fixed nav-wrapper">
+			<nav class="row">
+				<div class="col s8 m3 offset-m1">
+					<a href="#"><img class="logo" src="imagens/logotipo	.png" alt="logo"><a>
+				</div><!--col-->
+				<div class="col s3 m7 offset-m1">
+					<a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="menuzito" class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="nossosistema.html">Nosso sistema</a></li>
+						<li><a href="instituicoes.html">Instituições</a></li>
+						<li><a href="cadastrese.html">Cadastre-se</a></li>
+						<li><a href="login.html" class="waves-effect waves-light btn" class="modal-trigger" class="login">Login</a></li>
+					</ul>
+				</div><!--col-->
+			</nav><!--row-->
+		</div><!--navbar-->
+		<ul class="sidenav" id="mobile-demo">
+						<li><a href="#formacoes">Home</a></li>
+						<li><a href="nossosistema.html">Nosso sistema</a></li>
+						<li><a href="instituicoes.html">Instituições</a></li>
+						<li><a href="cadastrese.html">Cadastre-se</a></li>
+						<li><a href="login.html" class="waves-effect waves-light btn" class="modal-trigger">Login</a></li>
+					</ul>
+	</header>
+	<div class="cadastro">
+		<div class="container" align="center">
+			<div class="row">
+				<div class="input-field col m6 s12">
+					<input placeholder="Digite seu primeiro nome" id="first_name" type="text" class="validate">
+					<label for="first_name">Nome</label>
+				</div><!--col-->
+				<div class="input-field col m6 s12">
+					<input placeholder="Digite seu sobrenome" id="last_name" type="text" class="validate">
+					<label for="last_name">Sobrenome</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m6 s7">
+					<input placeholder="Digite seu email" id="email" type="text" class="validate">
+					<label for="email">Email</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m6 s7">
+					<input placeholder="Digite sua senha" id="password" type="text" class="validate">
+					<label for="password">Senha</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m6 s7">
+					<input placeholder="Repita sua senha" id="repeatpassword" type="text" class="validate">
+					<label for="repeatpassword">Repita sua senha</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m6 s12">
+					<input placeholder="Digite seu CPF" id="cpf" type="text" class="validate">
+					<label for="cpf">Digite seu CPF</label>
+				</div><!--col-->
+				<div class="input-field col m6 s12">
+					<input placeholder="Digite seu RG" id="rg" type="text" class="validate">
+					<label for="rg">Digite seu RG</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m6 s7">
+					<input placeholder="Qual o seu sexo" id="mascoufem" type="text" class="validate">
+					<label for="mascoufem">Informe o seu sexo</label>
+				</div><!--col-->
+			</div><!--row-->
+			<div class="row">
+				<div class="input-field col m4 s12">
+					<input placeholder="Informe o seu estado UF" id="estado" type="text" class="validate">
+					<label for="estado">Estado</label>
+					</div><!--col-->
+					<div class="input-field col m4 s12">
+						<input placeholder="Informe sua cidade" id="cidade" type="text" class="validate">
+						<label for="cidade">Cidade</label>
+					</div><!--col-->
+					<div class="input-field col m3 s12">
+						<input placeholder="Informe o seu CEP" id="cep" type="text" class="validate">
+						<label for="cep">CEP</label>
+					</div><!--col-->
+				</div><!--row-->
+				<div class="row">
+					<div class="input-field col m3 s12">
+						<input placeholder="Informe o seu endereço" id="adress" type="text" class="validate">
+						<label for="adress">Endereço</label>
+					</div><!--col-->
+					<div class="input-field col m3 s12">
+						<input placeholder="Informe o numero" id="numberofhouse" type="text" class="validate">
+						<label for="numberofhouse">Numero</label>
+					</div><!--col-->
+					<div class="input-field col m6 s7 offset-m1">
+						<a href="" class="waves-effect waves-light btn" class="modal-trigger" class="cadastro">Cadastrar</a>
+					</div><!--col-->
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--cadastro-->
+
+
+	<footer class="page-footer">
+			<div class="footer-copyright">
+				<div class="container">
+					© 2020 Beehive all rights reserved.
+					<a class="grey-text text-lighten-4 right" href="#!">Beehive Group</a>
+				</div>
+			</div>
+		</footer>
+
+
+
+		
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  	
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/auto.js"></script>
+	</body>
+	</html>
